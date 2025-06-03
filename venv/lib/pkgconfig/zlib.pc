@@ -1,0 +1,13 @@
+prefix=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv
+exec_prefix=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv
+libdir=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv/lib
+sharedlibdir=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv/lib
+includedir=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

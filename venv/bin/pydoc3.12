@@ -1,0 +1,5 @@
+#!/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv/bin/python3.12
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

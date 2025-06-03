@@ -1,0 +1,11 @@
+prefix=/Users/sheryll/Desktop/DATA/udemy_complete_DS/Complete-Data-Science-With-Machine-Learning-And-NLP-2024/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 3.0.16
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}
